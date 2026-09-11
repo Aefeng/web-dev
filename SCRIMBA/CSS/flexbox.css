@@ -1,0 +1,17 @@
+/* Note: to use flex-boxes you have to have a container and its children */
+.nav-wrapper{
+    display:flex;
+    justify-content:center;
+   
+
+}
+
+.items{
+    text-align: center;/*puts our categories in the center of the page*/
+    border: 1px solid black;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-left: 10px;
+}

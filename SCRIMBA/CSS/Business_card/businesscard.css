@@ -1,0 +1,37 @@
+body{
+    margin:20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.avatar{
+    width:150px;
+    border-radius: 1px;
+}
+
+.card{     
+    padding:20px;
+    display:flex;
+    justify-content:space-around;
+    width:400px;
+    margin:0px auto;
+    
+    /* all text content of the card will be centered */
+    text-align: center;
+
+    /* now lets style the card */
+    color:#2b2839;
+    background-color: #bbd1ea;
+    border-bottom: 7px solid #507DBC;
+    border-radius: 3px;
+    transition:background 0.3s ease;
+    
+    
+
+}
+.card:hover{
+    box-shadow:4px 1px 10px lightblue;
+    background:#e4bb97;
+}
+
+
+
