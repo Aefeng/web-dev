@@ -1,0 +1,17 @@
+/* The @fontface allows us to get very specific fonts by cooking it using its ttf(true font type) file which can be found on 1001 fonts */
+body{
+    background-image: url("batman.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:yellow;
+    font-family:Grandover;
+    text-align: center;
+    
+    
+   
+}
+@font-face {
+    src:url(fonts/Grandover.ttf);
+    font-family:Grandover;
+
+}

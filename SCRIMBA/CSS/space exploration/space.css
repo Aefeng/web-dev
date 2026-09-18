@@ -1,0 +1,44 @@
+/* u can i giphy to get moving images(MAGNIFIC AS WELL) as a background */
+/* you can also get colors from your background image by using coolors */
+body{
+    text-align: center;
+    margin:0;
+}
+.font_ppties{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:bolder;
+    font-style: normal;
+    color:#428dac;
+
+}
+
+.Apply_button{
+    padding:5px 10px 4px 10px;
+    border:none;
+    background:white;
+    
+}
+.exp{
+    border-bottom: 4px solid white;
+}
+#logo{
+    width: 150px;
+    
+}
+
+#hero{
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExemx2M3lzdHZpMTMyaDhlNm9kdnNndGFubGloY2V1cGk1aGhiYm92ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif");
+    background-size: cover;
+    color:#428dac;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding:10px 0 40px 0;
+}
+
+/* Now lets play around with text shadows O_O */
+h1{
+    text-shadow: 0 0 4px black;
+    /*          ➡️⬇️ blur color*/
+    
+}

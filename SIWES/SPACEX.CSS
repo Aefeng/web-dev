@@ -1,0 +1,16 @@
+#hero{
+    display:flex;
+    height:400px;
+    color:white;
+    background-image: url("https://www.spacelaunchschedule.com/wp-content/uploads/2026/07/starship_on_the_image_20260724044615-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: end;
+}
+
+#page1{
+    display:flex;
+    height:400px;
+    color:white;
+    
+}
