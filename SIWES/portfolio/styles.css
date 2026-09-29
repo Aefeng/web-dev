@@ -1,0 +1,87 @@
+body{
+    background-image: url("images/BACKGROUND.jpg");
+    background-size: cover;
+    color: white;
+}
+.pfp{
+    width:150px;
+    border:5px solid silver;
+    border-radius: 50%;
+}
+
+.desc_section{
+    text-align: center;
+    align-items: center;
+   
+}
+.details{
+    display: flex;
+    justify-content:center;
+    gap:50px;
+    width:100%;
+    margin:0 auto;
+}
+
+.Interests{
+    background: #689ab2;
+    text-align:center;
+    width: 150px;
+    height: 200px;
+    border-radius: 7px;
+    border:5px solid silver;
+    box-shadow: 5px 5px black;
+   
+}
+
+.socials{
+    background: #689ab2;
+    text-align:center;
+    width: 150px;
+    height: 200px;
+    border-radius: 7px;
+    border:5px solid silver;
+    box-shadow: 5px 5px black;
+}
+
+.projects{
+    background: #689ab2;
+    text-align:center;
+    width: 150px;
+    height: 200px;
+    border-radius: 7px;
+    border:5px solid silver;
+    box-shadow: 5px 5px black;
+
+}
+
+
+
+.ubuntu {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-shadow: 0 0 1px black;
+}
+
+.ubuntu-bold {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xx-large;
+  text-shadow: 2px 0 2px black;
+}
+
+a{
+    text-decoration:antiquewhite underline;
+    color: inherit;
+}
+
+.text{
+  text-align: center;
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xx-large;
+  text-shadow: 0px 2px 0px black;
+}
+

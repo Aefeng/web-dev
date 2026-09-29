@@ -1,0 +1,39 @@
+
+.hero_section{
+    display: flex;
+    flex-direction: column;
+    background-image: url("project_images/uniben.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+    width:100%;
+    min-height:70vh;
+    margin:0px;
+    color:white;
+    text-align: center;
+}
+
+#visit_uniben{
+    background-color:#1D3557;
+    margin:250px auto 10px auto;
+    padding: 3px 7px;
+    border-radius: 10px;
+}
+
+#invitation{
+    background-color: #140d4f;
+    width:450px;
+    margin:20px auto 10px auto;
+    border-radius: 5px;
+    text-shadow: 0 0 5px black;
+
+}
+
+.page_2{
+    display: flex;
+    margin-top: 0;
+    background:#f0f8ed;
+}
+
+

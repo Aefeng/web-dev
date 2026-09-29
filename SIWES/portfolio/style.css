@@ -1,0 +1,14 @@
+.ubuntu {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-shadow: 0 0 1px black;
+}
+
+.ubuntu-bold {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: xx-large;
+  text-shadow: 2px 0 2px black;
+}

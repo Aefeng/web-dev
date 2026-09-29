@@ -1,0 +1,109 @@
+/* note that while justify direction works along the horinzontal 
+align items works on the vertical axis it also stretches the elements in a div  */
+
+/* the cross axis(that controlled by align items is always perpendicular to the objects being controlled usually divs) */
+
+body{
+    text-align: center;
+    background:#f2e5d5;
+    display: flex;
+    /* By  default the display direction of flex is set to row so it puts everyting on one row  so to get everything vertically placed 
+    sey the direction to column */
+    flex-direction: column;
+    /* this centers all the elements on the page */
+    align-items: center;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#image{
+    width:150px;
+    border-radius:100%;
+    border: 6px solid #919FCC ;
+    
+}
+
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow:0 0 1px black;
+}
+
+#bday_age{
+    background:#919FCC;
+    padding:5px 7px ;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+#bday_date{
+    background:#919FCC;
+    padding: 5px 7px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+.gift_wrap{
+    
+    width:400px;
+    height:400px;
+    /* setting the background */
+    background-image: url("gift_wrap.png");
+    background-size: cover;
+    /* margin-right: auto;
+    margin-left: auto; i'll use the shortcut for this instead */
+    margin:0 auto;
+    border:5px solid whitesmoke;
+    border-radius: 7px;
+    box-shadow: 0 0 1px black;
+}
+
+.gift_section{
+    margin-top: 50px;
+}
+
+.gift_title{
+    margin-bottom: 10px;
+}
+
+.gift_hint{
+    margin-top: 0;
+}
+
+.gift_wrap:hover{
+    background-image: url("my_image.jpeg");
+    background-size: cover;
+}
+
+#gift_wrap2:hover{
+    background-image: url("happy.gif");
+}
+
+#interesting_gift:hover{
+    background-image:url("interesting.gif");
+}
+
+#once_again:hover{
+    background-image: url("finally.gif");
+}
+
+#finally{
+    height:200px;
+}
+#finally:hover{
+    background-image: url("cheers.gif");
+
+}
+
+#footer{
+    width: 400px;
+    margin:50px auto 20px auto;
+    color:black;
+}
