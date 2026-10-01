@@ -113,3 +113,11 @@ body{
 p,h2,h3{
     margin: 0;
 }
+
+.card:hover{
+    box-shadow: 6px 2px 10px black;
+}
+
+.visit_uniben:hover{
+    color:goldenrod;
+}
