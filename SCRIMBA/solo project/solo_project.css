@@ -1,4 +1,8 @@
-
+body{ 
+    padding: 20px;
+    
+    
+}
 .hero_section{
     display: flex;
     flex-direction: column;
@@ -8,32 +12,104 @@
     background-repeat: no-repeat;
     position:relative;
     width:100%;
-    min-height:70vh;
+    height:800px;
     margin:0px;
     color:white;
     text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-#visit_uniben{
+.visit_uniben{
     background-color:#1D3557;
-    margin:250px auto 10px auto;
+    margin:400px auto 10px auto;
     padding: 3px 7px;
     border-radius: 10px;
 }
 
-#invitation{
+.invitation{
     background-color: #140d4f;
-    width:450px;
+    width:auto;
     margin:20px auto 10px auto;
     border-radius: 5px;
     text-shadow: 0 0 5px black;
 
 }
 
+.page_2_body{
+    margin: 0;
+    text-align: center;
+    padding: 0 30px;
+    background-color:#f0f8ed;
+    padding-bottom: 40px;
+
+    
+}
+
 .page_2{
     display: flex;
-    margin-top: 0;
-    background:#f0f8ed;
+    gap: 30px;
+    justify-content: center;   
+}
+
+.image{
+    border-radius: 50%;
+    width: 70%;
+    
+
+}
+
+.font_size {
+    font-size: 50px;
+    font-family: "Saira Stencil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: bold;
 }
 
 
+.font_size2{
+    font-size: 30px;
+    font-family: "Saira Stencil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+}
+
+
+.last_page{
+    background-color:white;
+    padding: 20px auto;
+    margin:auto;   
+    display: flex;
+    justify-content: center;
+
+}
+
+.my_image{
+    width:300px;
+    border-radius: 5px;
+    border: 7px solid #49738A ;
+
+}
+
+.card{
+    display: flex;
+    margin:150px 0;
+    width:800px;
+    background-color: #9FD4D6;
+    padding: 20px;
+    border-bottom: 10px solid #49738A;
+    gap:40px;
+}
+
+.Guide{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+
+p,h2,h3{
+    margin: 0;
+}

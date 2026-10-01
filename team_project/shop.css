@@ -63,23 +63,6 @@ footer{
     
 }
 
-@media(max-width:1200px){
-    .hero_section{
-        height: auto;
-        flex-direction: column;
-
-    }
-    
-    .product_row{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-
-@media(max-width:480px){
-    .product_row{
-        grid-template-columns: 1fr;
-    }
-}
 
 
 .entire_shop{
