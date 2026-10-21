@@ -1,0 +1,70 @@
+@font-face{
+    src:url(digital-7.ttf);
+    font-family:digital;
+}
+
+h1,h2,h3{
+    font-size: 44px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    font-style: normal;
+    letter-spacing: 2.7px;
+    line-height:30px;
+}
+
+p,h2{
+    margin: 0px;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 150px;
+}
+
+.main{
+    background-color: #1B2447;
+    display:flex;
+    gap:118px;
+    padding:36px 60px 40px 60px;
+    border-radius: 28px;
+}
+
+#box{
+    background-color: black;
+    width:188px;
+    height:144px;
+    margin: 28px auto;
+    border-radius: 6px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: digital;
+    font-size:100px;
+}
+
+.incr_btns{
+    display: flex;
+    gap:8px; 
+    justify-content: center;  
+}
+
+button{
+    background-color:#1B2447;
+    color: white;
+    font-family: digital;
+    font-size: 18px;
+    border:2px solid #6b7aad;
+    border-radius: 6px;
+    width: 52px;
+    height: 48px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #6b7aad;
+}
+

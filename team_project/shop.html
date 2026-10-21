@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="Shop_style.css">
     <title>shop</title>
 </head>
 <body>
+    
     <header>
        
         <a href="index.html" id="LOGO">Team Store</a>
 
         <div class="nav_links">
-            <a href="shop.html">Shop</a>
-            <a href="kitchen.html"> Kitchen</a>
-            <a href="Living.html"> Living</a>
-            <a href="About"> About</a>
+            <a  class="text_anim main_page" href="shop.html">Shop</a>
+            <a  class="text_anim" href="kitchen.html"> Kitchen</a>
+            <a  class="text_anim" href="Living.html"> Living</a>
+            <a  class="text_anim" href="about.html" target="_self"> About</a>
         </div>
 
-        <a href="cart.html">Cart</a>
+        <a  class="text_anim" href="cart.html">Cart(2)</a>
     </header>
 
      <div class="top">
@@ -29,11 +30,11 @@
     <div class="entire_shop">
         <div class="sidebar">
             <p class="category">Category</p>
-            <input type="checkbox" class="checkboxes"> kitchen
+            <input type="checkbox" class="checkboxes" data-url="Kitchen.html"> kitchen
             <br>
-            <input type="checkbox" class="checkboxes"> Living
+            <input type="checkbox" class="checkboxes" data-url="Living.html"> Living
             <br>
-            <input type="checkbox" class="checkboxes"> Textiles
+            <input type="checkbox" class="checkboxes" data-url=''> Textiles
             <br>
             <br>
 
@@ -48,47 +49,111 @@
 
 
         <div class="shop_product_row">
-            <a href="#" class="product_card" alt="">
+            <a href="Page 3.html" class="product_card" alt="">
                 <div class="card sage"><img src="images/mug.png" class="product_image"></div>
                 <div class="product_name">Stoneware Mug</div>
                 <div class="price">$28</div>
             </a>
 
             <a href="#" class="product_card" alt="">
-                <div class="card rose"><img src="images/linenthrow.jpg" alt="linen throw" class="product_image"></div>
-                <div class="product_name">Linen throw</div>
-                <div class="price">$64</div>
+                <div class="card rose"><img src="images/living_rech_fan.jpg" alt="linen throw" class="product_image"></div>
+                <div class="product_name">Rechargeable Fan</div>
+                <div class="price">$24</div>
             </a>
 
             <a href="#" class="product_card" alt="">
-                <div class="card blue"><img src="images/serving_tray.png"  class="product_image"></div>
-                <div class="product_name">Oak serving Board</div>
+                <div class="card blue"><img src="images/living_shelf.avif"  class="product_image"></div>
+                <div class="product_name">book shelf</div>
                 <div class="price">$46</div>
             </a>
 
             <a href="#" class="product_card" alt="">
-                <div class="card sand"><img src="images/bronze_candle holder.jpeg" class="product_image"></div>
-                <div class="product_name">Brass Candle holder</div>
-                <div class="price">$34</div>
+                <div class="card sand"><img src="images/living_couch.avif" class="product_image"></div>
+                <div class="product_name">Sitting room Couch</div>
+                <div class="price">$44</div>
             </a>
 
             <a href="#" class="product_card" alt="">
-                <div class="card sage"><img src="images/cutlery.jpg" class="product_image"></div>
-                <div class="product_name">Cutlery</div>
-                <div class="price">$15</div>
+                <div class="card sage"><img src="images/living_tv shelf.avif" class="product_image"></div>
+                <div class="product_name">Sitting room shelf</div>
+                <div class="price">$12</div>
             </a>
 
             <a href="#" class="product_card" alt="">
-                <div class="card rose"><img src="images/pots.jpg"  class="product_image"></div>
+                <div class="card rose"><img src="images/shop-non stick.jpg"  class="product_image"></div>
                 <div class="product_name">Set of pots</div>
                 <div class="price">$64</div>
             </a>
+
+            <a href="#" class="product_card" alt="">
+                <div class="card sage"><img src="images/shop_bath towel set2.jpeg" class="product_image"></div>
+                <div class="product_name">Bath Towels</div>
+                <div class="price">$12</div>
+            </a>
+
+            <a href="#" class="product_card" alt="">
+                <div class="card rose"><img src="images/shop_blender.jpg"  class="product_image"></div>
+                <div class="product_name">Blender</div>
+                <div class="price">$34</div>
+            </a>
+
+            <a href="Page 3.html" class="product_card" alt="">
+                <div class="card sage"><img src="images/shop_curtain_pairs.avif" class="product_image"></div>
+                <div class="product_name">Set of curtains</div>
+                <div class="price">$10</div>
+            </a>
+
+            <a href="#" class="product_card" alt="">
+                <div class="card rose"><img src="images/shop_bed sheet spreads with pillow case.avif" alt="linen throw" class="product_image"></div>
+                <div class="product_name">Bed sheets sheets x pillow set</div>
+                <div class="price">$4</div>
+            </a>
+
+            <a href="#" class="product_card" alt="">
+                <div class="card blue"><img src="images/water_dispenser.avif"  class="product_image"></div>
+                <div class="product_name">water_dispenser</div>
+                <div class="price">$56</div>
+            </a>
+
+            <a href="#" class="product_card" alt="">
+                <div class="card sand"><img src="images/food_storage.jpg" class="product_image"></div>
+                <div class="product_name">Food storage containers</div>
+                <div class="price">$7</div>
+            </a>
+
+            <a href="#" class="product_card" alt="">
+                <div class="card sage"><img src="images/shop_extension.jpg" class="product_image"></div>
+                <div class="product_name">Power sockets</div>
+                <div class="price">$12</div>
+            </a>
+
+            <a href="#" class="product_card" alt="">
+                <div class="card rose"><img src="images/nivea.webp"  class="product_image"></div>
+                <div class="product_name">Nivea men body lotion</div>
+                <div class="price">$9</div>
+            </a>
+
+            <a href="#" class="product_card" alt="">
+                <div class="card sage"><img src="images/shop_table top gas cooker.jpeg" class="product_image"></div>
+                <div class="product_name">Table top gas cooker</div>
+                <div class="price">$12</div>
+            </a>
+
+            <a href="#" class="product_card" alt="">
+                <div class="card rose"><img src="images/shop_chinaware.jpg"  class="product_image"></div>
+                <div class="product_name">Set of plates</div>
+                <div class="price">$17</div>
+            </a>
         </div>
     </div>
-    
+    <script src="shop.js"></script>
     <footer>
-        <a href="index.html" id="LOGO">Team Store</a>
-        <p> Contact.Shipping.Returns</p>
+        <span>&copy; Team Store</span>
+        <div class="footer-links">
+            <a href="contact.html">Contact</a>
+            <a href="shipping.html">Shipping</a>
+            <a href="returns.html">Returns</a>
+        </div>
 
     </footer>
 </body>

@@ -45,7 +45,7 @@ a{
 #hero_image{
     width:560px;
     height:440px;
-    object-fit: contain;
+    object-fit:cover;
 }
 
 /* p and h tag elements have a default margin applied to it so you have to set their margins to zero */
@@ -56,10 +56,12 @@ a{
     margin: 0;
 }
 
-
+p{
+    margin: 0;
+}
 #LOGO{
-    font-size: 26px;
-    font-weight: 600px;
+    font-size: 27px;
+    font-weight: 900px;
 }
 
 #season{
@@ -85,6 +87,11 @@ button{
     border: none;
     border-radius: 6px;
     align-self: flex-start;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkred;
 }
 
 .featured{
@@ -115,6 +122,12 @@ button{
     border-radius: 8px;
 }
 
+.card:hover{
+    transition: 0.5s ease;
+    transform: scale(1.05);
+    
+}
+
 .sage{ background-color: 
 #C9D3C4}
 .rose {background-color: 
@@ -140,7 +153,11 @@ footer{
     object-fit:cover;
     border-radius: 8px;
 }
-
+.text_anim:hover{
+    transition:0.5s ease;
+    transform:scale(1.3);
+    color:darkred;
+}
 @media(max-width:1200px){
     .hero_section{
         height: auto;
@@ -159,3 +176,4 @@ footer{
     }
 }
 
+.footer-links { display: flex; gap: 1.5rem; }

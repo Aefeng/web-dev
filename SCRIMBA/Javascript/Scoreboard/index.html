@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="score_board.css"> 
+    <title>Scoreboard</title>
+</head>
+<body>
+    <div class="main">
+        <div id="home">
+            <h2>HOME</h2>
+            <div id="box">
+                <p id="score_home">0</p>
+            </div>
+            <div class="incr_btns">
+                <button id="btn_1" onclick="incr_1()">+1</button>
+                <button id="btn_2" onclick="incr_2()">+2</button>
+                <button id="btn_3" onclick="incr_3()">+3</button>
+            </div>
+        </div>
+
+        <div id="away">
+            <h2>AWAY</h2>
+            <div id="box">
+                <p id="score_away">4</p>
+            </div>
+            <div class="incr_btns">
+                <button id="btn_1" onclick="incr_away_1()">+1</button>
+                <button id="btn_2" onclick="incr_away_2()">+2</button>
+                <button id="btn_3" onclick="incr_away_3()">+3</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="score_board.js"></script>
+</body>
+</html>

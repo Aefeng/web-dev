@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #f6f1e9;
+
+}
+
+.nav_links{
+    display: flex;
+    gap:32px;
+}
+
+
+
+header{
+    display:flex;
+    justify-content: space-between;
+    gap:32px;
+    height:50px ;
+    align-items:center;
+    padding: 0 48px;
+    border-bottom: 1px solid #DDD3C2;
+    
+}
+
+a{  
+    text-decoration: none;
+    color:#1f2a24;
+}
+
+.heading {
+    padding: 20px 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+
+}
+
+.mainbox {
+    background-image: url("images/mug_2.png");
+    background-size:cover;
+    height:400px;
+    background-color: burlywood;
+    margin-left: 48px;
+    margin-right: 48px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.fullpage {
+    display: flex;
+}
+
+.box1 {
+    height: 60px;
+    width: 80px;
+    background-color: burlywood;
+    margin: 10px 10px 10px 0px;
+    border-radius: 5px;
+}
+
+.other_box {
+    display: flex;
+    margin-left: 48px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 10px;
+
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight:300;
+    padding-bottom: 10px
+}
+
+h5 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-bottom: 10px
+}
+
+.button1 { 
+    width: 70px;
+    height: 40px;
+    background-color: #f6f1e9;
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+    border-style:outset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.button1:hover{
+    transition:0.3s ease;
+    transform: scale(1.05);
+    background-color: #DDD3C2;
+}
+.buttons {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 20px
+}
+
+input {
+    margin: 10px 10px 10px 0px;
+    width: 70px;
+    height: 40px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px;
+    border-style: initial;
+    box-shadow: black;
+}
+
+.cart {
+    width: 400px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    border-style: initial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+.cart:hover{
+    background-color: darkred;
+}
+
+footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    padding:0 48px;
+    margin-top:80px;
+    border-top: 1px solid #DDD3C2;
+
+}
+.footer-links { display: flex; gap: 1.5rem; }
+#LOGO{
+    font-size: 26px;
+    font-weight: 600px;
+}
+
+.text_anim:hover{
+    transition:0.5s ease;
+    transform:scale(1.3);
+    color:darkred;
+}

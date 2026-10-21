@@ -1,0 +1,65 @@
+body{
+    background-color: grey;   
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    margin:20px 120px 20px 120px;
+
+}
+
+input{
+    padding:10px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+
+#submit{
+    /* color:white; */
+    /* background-color: green; */
+    padding:10px 15px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+#clear{
+    /* color:white; */
+    /* background-color: darkred; */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+#submit:hover{
+    transition:0.3s ease;
+    transform: scale(1.1);
+}
+
+#clear:hover{
+    transition:0.3s ease;
+    transform: scale(1.1);
+}
+
+.message{
+    display: flex;
+    height:500px;
+    margin:20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 1px black;
+    color: black;
+    padding:20px;
+}
+

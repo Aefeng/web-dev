@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your cart Team Store.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+  <header>
+       
+        <a href="index.html" id="LOGO">Team Store</a>
+
+        <div class="nav_links">
+            <a href="shop.html">Shop</a>
+            <a href="kitchen.html"> Kitchen</a>
+            <a href="Living.html"> Living</a>
+            <a href="About"> About</a>
+        </div>
+
+        <a href="cart.html">Cart(2)</a>
+    </header>
+
+  <main>
+    <h1>Your cart</h1>
+
+    <div class="cart-layout">
+      <section aria-label="Items in your cart">
+        <ul class="cart-items">
+          <li class="cart-item">
+            <div class="item-image" role="img" aria-label="Stoneware mug in sage"></div>
+            <div class="item-info">
+              <h2 class="item-name">Stoneware mug</h2>
+              <p class="item-meta">Sage</p>
+              <p class="item-meta">Qty 1</p>
+              <button class="remove" type="button">Remove</button>
+            </div>
+            <p class="item-price">$28</p>
+          </li>
+
+          <li class="cart-item">
+            <div class="item-image oat" role="img" aria-label="Linen throw in oat"></div>
+            <div class="item-info">
+              <h2 class="item-name">Linen throw</h2>
+              <p class="item-meta">Oat</p>
+              <p class="item-meta">Qty 1</p>
+              <button class="remove" type="button">Remove</button>
+            </div>
+            <p class="item-price">$64</p>
+          </li>
+        </ul>
+
+        <a class="continue" href="shop.html">Continue shopping</a>
+      </section>
+
+      <aside class="summary" aria-label="Order summary">
+        <h2>Order summary</h2>
+
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <span>$92</span>
+        </div>
+        <div class="summary-row">
+          <span>Shipping</span>
+          <span class="note">Calculated at checkout</span>
+        </div>
+        <div class="summary-row total">
+          <span>Total</span>
+          <span>$92</span>
+        </div>
+
+        <a class="btn" href="checkout.html">Checkout</a>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; Team Store</span>
+    <div class="footer-links">
+      <a href="contact.html">Contact</a>
+      <a href="shipping.html">Shipping</a>
+      <a href="returns.html">Returns</a>
+    </div>
+  </footer>
+
+</body>
+</html>

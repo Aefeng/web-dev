@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main{
+    width: 300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:7px;
+    cursor: pointer;
+}
+
+.text{
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+p{
+    display:inline;
+    border-bottom:2px solid black;
+    
+}
+button{
+    cursor: pointer;
+    border-radius:50%;
+    background-color:lightgreen;
+    border:none;
+    height:60px;
+
+}
+
+button:hover{
+    background-color: green;
+}

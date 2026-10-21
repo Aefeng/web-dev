@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout - Nook &amp; Co.</title>
+
+
+  <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+  <header>
+       
+        <a href="index.html" id="LOGO">Team Store</a>
+
+        <div class="nav_links">
+            <a href="shop.html">Shop</a>
+            <a href="kitchen.html"> Kitchen</a>
+            <a href="Living.html"> Living</a>
+            <a href="About"> About</a>
+        </div>
+
+        <a href="cart.html">Cart(2)</a>
+    </header>
+
+  <main class="checkout">
+
+    <section class="checkout-form">
+      <h1>Checkout</h1>
+
+      <form action="#" method="post">
+
+        <fieldset>
+          <legend>Contact</legend>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Shipping address</legend>
+
+          <div class="row two-col">
+            <div class="field">
+              <label for="first-name">First name</label>
+              <input type="text" id="first-name" name="first-name">
+            </div>
+            <div class="field">
+              <label for="last-name">Last name</label>
+              <input type="text" id="last-name" name="last-name">
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address">
+          </div>
+        
+          <div class="row two-col">
+            <div class="field">
+              <label for="city">City</label>
+              <input type="text" id="city" name="city">
+            </div>
+            <div class="field">
+              <label for="postal">Postal code</label>
+              <input type="text" id="postal" name="postal">
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Payment</legend>
+
+          <div class="row three-col">
+            <div class="field">
+              <label for="card">Card number</label>
+              <input type="text" id="card" name="card" inputmode="numeric">
+            </div>
+            <div class="field">
+              <label for="expiry">Expiry</label>
+              <input type="text" id="expiry" name="expiry">
+            </div>
+            <div class="field">
+              <label for="cvc">CVC</label>
+              <input type="text" id="cvc" name="cvc" inputmode="numeric">
+            </div>
+          </div>
+        </fieldset>
+
+      </form>
+    </section>
+
+    <aside class="order-summary">
+      <h2>Order summary</h2>
+
+      <ul class="items">
+        <li class="item">
+          <span class="swatch swatch-sage"></span>
+          <span class="item-name">Stoneware mug &times; 1</span>
+          <span class="item-price">$28</span>
+        </li>
+        <li class="item">
+          <span class="swatch swatch-peach"></span>
+          <span class="item-name">Linen throw &times; 1</span>
+          <span class="item-price">$64</span>
+        </li>
+      </ul>
+
+      <div class="total">
+        <span>Total</span>
+        <span>$92</span>
+      </div>
+
+      <button type="submit" class="place-order">Place order</button>
+    </aside>
+
+  </main>
+
+</body>
+</html>
