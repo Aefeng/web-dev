@@ -10,28 +10,32 @@
     <div class="main">
         <div id="home">
             <h2>HOME</h2>
-            <div id="box">
+            <div class="box" id="home-box">
                 <p id="score_home">0</p>
             </div>
             <div class="incr_btns">
-                <button id="btn_1" onclick="incr_1()">+1</button>
-                <button id="btn_2" onclick="incr_2()">+2</button>
-                <button id="btn_3" onclick="incr_3()">+3</button>
+                <!-- Home buttons -->
+                <button onclick="addPoints('home', 1)">+1</button>
+                <button onclick="addPoints('home', 2)">+2</button>
+                <button onclick="addPoints('home', 3)">+3</button>
+            </div>
+        </div>
+        <button id="new_game" onclick="new_game()">New Game</button>
+        <div id="away">
+            <h2>AWAY</h2>
+            <div class="box"  id="away-box">
+                <p id="score_away">0</p>
+            </div>
+            <div class="incr_btns">
+                <!-- Home buttons -->
+                <button onclick="addPoints('away', 1)">+1</button>
+                <button onclick="addPoints('away', 2)">+2</button>
+                <button onclick="addPoints('away', 3)">+3</button>
             </div>
         </div>
 
-        <div id="away">
-            <h2>AWAY</h2>
-            <div id="box">
-                <p id="score_away">4</p>
-            </div>
-            <div class="incr_btns">
-                <button id="btn_1" onclick="incr_away_1()">+1</button>
-                <button id="btn_2" onclick="incr_away_2()">+2</button>
-                <button id="btn_3" onclick="incr_away_3()">+3</button>
-            </div>
-        </div>
     </div>
+   
 
     <script src="score_board.js"></script>
 </body>
