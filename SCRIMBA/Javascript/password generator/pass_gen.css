@@ -1,0 +1,133 @@
+@font-face{
+    src:url("DarkerGrotesque-VariableFont_wght.ttf");
+    font-family:darker;
+}
+
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:130px ;
+    
+}
+
+h1,h2,h3,p{
+    margin: 0;
+}
+
+#maincontainer{
+    background-color:#1C2330;
+    height:320px;
+    width:400px;
+    border-radius:28px ;
+    padding:100px 54px 60px 54px;
+    color: white;
+    font-family: darker;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+    border:5px solid white;
+    box-shadow: 0 0 5px black;
+}
+
+#Generate_txt{
+    margin-bottom: 0px;
+    
+}
+#randpass_txt{
+    margin-top: 0px;
+    color:#4ADE80;
+}
+
+#small_txt{
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size:20px;
+    font-weight:lighter;
+}
+
+button{
+    background-color: #4ADE80;
+    width: 150px;
+    height:30px;
+    border: none;
+    border-radius: 5px;
+    color:#1C2330;
+    margin-top: 40px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+
+button:hover{
+    transform: scale(1.05);
+    transition:ease 0.7s;
+    box-shadow: 0 0 10px greenyellow ;
+    
+}
+
+.display_div{
+    margin-top: 56px ;
+    display:flex;
+    gap:20px;
+    color:#4ADE80;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+}
+
+#display_1{
+    display: flex;
+    background-color:#273244 ;
+    width:185px;
+    height:35px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#display_2{
+    display: flex;
+    background-color:#273244 ;
+    width:185px;
+    height:35px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#password_length{
+    background:#4ADE80;
+    border: none;
+    height:30px;
+    border-radius: 5px;
+    text-align: center;
+    color:#1C2330;
+    font-weight: bold;
+    user-select: none;
+   
+}
+
+/* this allows the button to show */
+#password_length::-webkit-inner-spin-button{
+    opacity: 1;
+    /* background-color: #4ADE80; */
+}
+
+label{
+    font-size:large;
+}
+
+#copied_msg{
+    margin-top: 10px;
+    text-align: center;
+    font-weight:50;
+    font-size: 20px;
+    color: lightgreen;
+}
+ 

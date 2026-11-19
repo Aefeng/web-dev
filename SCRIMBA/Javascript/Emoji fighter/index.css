@@ -1,0 +1,35 @@
+@font-face{
+    src:url("Bangers-Regular.ttf");
+    font-family: Bangers;
+}
+
+*{
+    font-family: Bangers;
+    font-size: xxx-large;
+    color:#E78018;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    
+    
+    
+}
+
+h1{
+    color:#E78018;
+    text-shadow: 2px 1px 0px black;
+}
+
+button{
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color:#E78018;
+    padding: 5px 20px;
+    box-shadow: 0 0 2px black;
+}
