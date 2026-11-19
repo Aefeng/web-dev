@@ -19,7 +19,8 @@ h1,h2,h3,p{
 #maincontainer{
     background-color:#1C2330;
     height:320px;
-    width:400px;
+    width:100%;
+    max-width: 400px;
     border-radius:28px ;
     padding:100px 54px 60px 54px;
     color: white;
@@ -131,3 +132,26 @@ label{
     color: lightgreen;
 }
  
+@media(max-width:600px){
+    #maincontainer{
+        width:100%;
+        padding:30px  20px  30px  30px;
+    }
+
+    .display_div{
+        margin-top: 30px;
+    }
+
+    h1{
+        font-size: 1.6rem;
+    }
+
+    #display_1{
+        width: 100%;
+        font-size: 14px;
+    }
+    #display_2{
+        width: 100%;
+        font-size: 12px;
+    }
+}
